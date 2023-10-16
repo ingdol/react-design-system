@@ -7,8 +7,16 @@ function App() {
       <div className="container front">
         {/* Header */}
         <Header />
+        {/* Section :  */}
+        <section className="take-course">
+          <div className="take-course-inner">
+            <div className="cart-wrap"></div>
+            <div className="payment"></div>
+          </div>
+        </section>
+
         {/* Section : Front Slider */}
-        <section className="front-slider">
+        {/* <section className="front-slider">
           <div className="front-slider-items">
             <SimpleSlider>
               <div className="front-slider-item first">
@@ -84,7 +92,7 @@ function App() {
         </section>
         <footer>
           <div className="footer-inner"></div>
-        </footer>
+        </footer> */}
       </div>
     </>
   );
