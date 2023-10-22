@@ -137,7 +137,7 @@ export default function Header() {
       </header>
 
       {/* Login Modal */}
-      <div className="member-login-overlay">
+      {/* <div className="member-login-overlay">
         <div className="member-login">
           <div className="member-account">
             <h1 className="login-slogan">
@@ -172,7 +172,7 @@ export default function Header() {
           </p>
           <button className="btn-modal-close">&times;</button>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

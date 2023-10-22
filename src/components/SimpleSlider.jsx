@@ -1,4 +1,4 @@
-import Slider from 'react-slick';
+import Slider from "react-slick";
 
 export const SimpleSlider = ({ children }) => {
   const settings = {
